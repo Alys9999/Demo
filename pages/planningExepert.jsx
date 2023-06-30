@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Button } from '@mui/material';
 
-export default function First() {
+export default function PlanningExepert() {
   return (
     <div className={styles.container}>
       <Head>
@@ -12,12 +11,12 @@ export default function First() {
 
       <main>
         <h1 className={styles.title}>
-        First
+        PlanningExepert
         </h1>
 
         <div className={styles.grid}>
-          <a href="./first" className={styles.card}>
-            <h3>One &rarr;</h3>
+          <a href="./chat" className={styles.card}>
+            <h3>chat &rarr;</h3>
           </a>
         </div>
       </main>
